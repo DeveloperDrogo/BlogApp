@@ -1,0 +1,4 @@
+#Sun Jul 14 16:30:20 IST 2024
+base.0=/Users/parrophinstech/ToDoList/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

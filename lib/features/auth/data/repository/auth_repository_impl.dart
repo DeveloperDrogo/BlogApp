@@ -11,8 +11,15 @@ class AuthoRepositoryImpl implements AuthRepository {
   @override
   Future<Either<Failure, String>> loginWithEmail(
       {required String email, required String password}) async {
-    try {} catch (e) {}
-    throw UnimplementedError();
+    try {
+      final userId = await authRemoteDataSource.loginWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
+      return right(userId);
+    } on ServerException catch (e) {
+      return left(Failure(e.message));
+    }
   }
 
   @override

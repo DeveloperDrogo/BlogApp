@@ -14,6 +14,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "bloc",
+      "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/bloc-8.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -72,6 +78,12 @@
       "rootUri": "file:///Users/parrophinstech/Development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_bloc",
+      "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_lints",
@@ -164,6 +176,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
@@ -222,6 +240,12 @@
       "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/postgrest-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/parrophinstech/.pub-cache/hosted/pub.dev/provider-6.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "realtime_client",
@@ -440,7 +464,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-07-23T05:15:50.258845Z",
+  "generated": "2024-08-01T17:54:42.156322Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }

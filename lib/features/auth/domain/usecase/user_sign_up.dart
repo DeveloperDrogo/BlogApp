@@ -1,13 +1,16 @@
+// ignore_for_file: implementation_imports
+
 import 'package:clean/core/error/failure.dart';
 import 'package:clean/core/usecase/usecase.dart';
+import 'package:clean/core/common/entities/user.dart';
 import 'package:clean/features/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/src/either.dart';
 
-class UserSignUp implements UseCase<String, UserSignupParms> {
+class UserSignUp implements UseCase<User, UserSignupParms> {
   final AuthRepository authRepository;
   UserSignUp(this.authRepository);
   @override
-  Future<Either<Failure, String>> call(UserSignupParms parms) async{
+  Future<Either<Failure, User>> call(UserSignupParms parms) async{
     return await authRepository.signupWithEmail(
       name: parms.name,
       email: parms.email,
